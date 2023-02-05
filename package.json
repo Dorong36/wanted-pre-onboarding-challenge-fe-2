@@ -1,0 +1,23 @@
+{
+  "name": "mission",
+  "version": "1.0.0",
+  "description": "원티드 프리온보딩 프론트엔드 2월 사전과제",
+  "main": "index01.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dorong36/wanted-pre-onboarding-challenge-fe-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dorong36/wanted-pre-onboarding-challenge-fe-2/issues"
+  },
+  "homepage": "https://github.com/Dorong36/wanted-pre-onboarding-challenge-fe-2#readme",
+  "dependencies": {
+    "jsdoc": "^4.0.0"
+  }
+}
