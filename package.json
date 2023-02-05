@@ -4,7 +4,9 @@
   "description": "원티드 프리온보딩 프론트엔드 2월 사전과제",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build", 
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -16,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/Dorong36/wanted-pre-onboarding-challenge-fe-2/issues"
   },
-  "homepage": "https://dorong36.github.io/wanted-pre-onboarding-challenge-fe-2/",
+  "homepage": "https://dorong36.github.io/wanted-pre-onboarding-challenge-fe-2/out",
   "dependencies": {
     "jsdoc": "^4.0.0"
   }
